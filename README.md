@@ -93,5 +93,7 @@ Kaggle – [Fitbit Fitness Tracker Data](https://www.kaggle.com/datasets/arashni
 ### 👤 9. Autor
 
 Willian Gomes
+
 Analista de Dados | SQL • R • Python • Visualização
+
 LinkedIn: [Acesse aqui](https://www.linkedin.com/in/willian-gomes-242240174/)
