@@ -56,13 +56,17 @@ Baixa adesão a registros completos de sono e peso, o que limita análises mais 
 As análises completas estão disponíveis em:
 
 📄 /r-analysis/analise_sono.Rmd
+
 📄 /r-analysis/analise_atividade.Rmd
+
 📄 /r-analysis/analise_peso.Rmd
 
 Versões renderizadas:
 
 🖥️ /reports/sono.html
+
 🖥️ /reports/atividade.html
+
 🖥️ /reports/peso.html
 
 ### 📈 6. Visualizações
@@ -84,10 +88,10 @@ Criar campanhas direcionadas ao público feminino com foco em rotina saudável e
 ### 🔗 8. Fonte dos Dados
 
 Dataset público disponível em:
-Kaggle – Fitbit Fitness Tracker Data
+Kaggle – [Fitbit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)
 
 ### 👤 9. Autor
 
 Willian Gomes
 Analista de Dados | SQL • R • Python • Visualização
-LinkedIn: https://www.linkedin.com/in/willian-gomes-242240174/
+LinkedIn: [Acesse aqui](https://www.linkedin.com/in/willian-gomes-242240174/)
