@@ -16,9 +16,13 @@ Traduzir essas descobertas em insights acionáveis para marketing e desenvolvime
 
 ### 📁 2. Estrutura do Repositório
 📁 dados/                Dados utilizados (limpos e brutos)
+
 📁 visualizações/             PDFs, HTMLs e visualizações
+
 📁 docs/                Documentação original do case
+
 📁 sql/                 Scripts SQL utilizados no processo
+
 README.md               Visão geral do projeto
 
 ### ⚙️ 3. Tecnologias Utilizadas
