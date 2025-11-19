@@ -25,7 +25,10 @@ Traduzir essas descobertas em insights acionáveis para marketing e desenvolvime
 
 README.md               Visão geral do projeto
 
-### ⚙️ 3. Tecnologias Utilizadas
+### 3. Relatório Detalhado
+Para acessar o relatório completo com as análises clique [aqui](../docs/Estudo%20de%20Caso%20-%20%Bellabeat.md)
+
+### ⚙️ 4. Tecnologias Utilizadas
 
 R e RMarkdown para ETL, EDA e visualizações
 
@@ -37,7 +40,7 @@ Python para ajustes pontuais nos arquivos
 
 Markdown para documentação final
 
-### 📊 4. Sumário das Principais Descobertas
+### 📊 5. Sumário das Principais Descobertas
 
 Os usuários possuem padrão predominantemente sedentário, com longos períodos de inatividade.
 
@@ -51,7 +54,7 @@ Não há diferenças expressivas entre dias úteis e fins de semana.
 
 Baixa adesão a registros completos de sono e peso, o que limita análises mais profundas.
 
-### 🔎 5. Análises em R
+### 🔎 6. Análises em R
 
 As análises completas estão disponíveis em:
 
@@ -69,13 +72,12 @@ Versões renderizadas:
 
 🖥️ /reports/peso.html
 
-### 📈 6. Visualizações
-
+### 📈 7. Visualizações
 Gráficos utilizados no relatório estão na pasta:
 
 📁 /visualizacoes/
 
-### 🧩 7. Principais Recomendações
+### 🧩 8. Principais Recomendações
 
 Criar notificações inteligentes que incentivem pausas ao longo do dia.
 
@@ -85,12 +87,12 @@ Desenvolver metas personalizadas baseadas no comportamento individual.
 
 Criar campanhas direcionadas ao público feminino com foco em rotina saudável e realista.
 
-### 🔗 8. Fonte dos Dados
+### 🔗 9. Fonte dos Dados
 
 Dataset público disponível em:
 Kaggle – [Fitbit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)
 
-### 👤 9. Autor
+### 👤 10. Autor
 
 Willian Gomes
 
