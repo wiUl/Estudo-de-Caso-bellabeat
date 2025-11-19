@@ -133,13 +133,13 @@ Valores médios:
 ### **Visualizações produzidas**
 
 #### 🔗 Impacto da Duração do Sono sobre o Desempenho Físico Diário  
-[📄 Download PDF](../visualizações/Impacto da Duração do Sono sobre o Desempenho Físico Diário.pdf)
+[📄 Download PDF](../visualizações/Impacto%20da%20Duração%20do%20Sono%20sobre%20o%20Desempenho%20Físico%20Diário.pdf)
 
 #### 🔗 Relação entre Intensidade da Atividade Física, Gasto Calórico e Batimentos Cardíacos  
-[📄 Download PDF](../visualizações/Relação entre Intensidade da Atividade Física, Gasto Calórico e Batimentos Cardíacos.pdf)
+[📄 Download PDF](../visualizações/Relação%20entre%20Intensidade%20da%20Atividade%20Física,%20Gasto%20Calórico%20e%20Batimentos%20Cardíacos.pdf)
 
 #### 🔗 Relação entre Peso e Componentes de Atividade Física  
-[📄 Download PDF](../visualizações/Relação entre Peso e Componentes de Atividade Física.pdf)
+[📄 Download PDF](../visualizações/Relação%20entre%20Peso%20e%20Componentes%20de%20Atividade%20Física.pdf)
 
 ---
 
