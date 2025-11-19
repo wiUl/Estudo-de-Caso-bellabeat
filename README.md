@@ -26,7 +26,7 @@ Traduzir essas descobertas em insights acionáveis para marketing e desenvolvime
 README.md               Visão geral do projeto
 
 ### 3. Relatório Detalhado
-Para acessar o relatório completo com as análises clique [aqui](../docs/Estudo%20de%20Caso%20-%20Bellabeat.md)
+Para acessar o relatório completo com as análises clique [aqui](docs/Estudo%20de%20Caso%20-%20Bellabeat.md)
 
 ### ⚙️ 4. Tecnologias Utilizadas
 
