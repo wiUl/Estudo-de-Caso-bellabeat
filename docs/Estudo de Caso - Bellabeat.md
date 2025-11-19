@@ -1,6 +1,6 @@
 # 📘 **Estudo de Caso – Bellabeat**
 
-## ## **Fase 1 — Perguntar**
+##  **Fase 1 — Perguntar**
 
 ### **Objetivo da análise**
 Investigar como usuários de dispositivos Fitbit utilizam seus aparelhos e identificar padrões de comportamento relacionados à saúde física.
@@ -18,7 +18,7 @@ A Bellabeat deseja expandir sua presença no mercado de dispositivos inteligente
 
 ---
 
-## ## **Fase 2 — Preparar**
+##  **Fase 2 — Preparar**
 
 ### **Fonte dos dados**
 Os dados utilizados estão disponíveis no Kaggle:  
@@ -54,7 +54,7 @@ Os dados foram limpos, inconsistências pequenas foram justificadas e duplicatas
 
 ---
 
-## ## **Fase 3 — Processar**
+##  **Fase 3 — Processar**
 
 ### **Ferramentas utilizadas**
 - Google Spreadsheets  
@@ -88,7 +88,7 @@ Após o tratamento, os dados foram importados para um banco MySQL com tabelas se
 
 ---
 
-## ## **Fase 4 — Analisar**
+##  **Fase 4 — Analisar**
 
 ### **Descobertas gerais**
 - Usuários apresentam perfis variados.  
@@ -110,7 +110,7 @@ Após o tratamento, os dados foram importados para um banco MySQL com tabelas se
 
 ---
 
-## ## **Fase 5 — Compartilhar**
+##  **Fase 5 — Compartilhar**
 
 ### **1. Panorama geral de atividade física**
 Valores médios:
@@ -143,7 +143,7 @@ Valores médios:
 
 ---
 
-## ## **Fase 6 — Agir**
+##  **Fase 6 — Agir**
 
 ### **Conclusão geral**
 O comportamento típico das usuárias é predominantemente sedentário, mesmo com sono adequado. Atividades físicas são distribuídas em pequenos períodos, limitando benefícios metabólicos.
