@@ -1,101 +1,74 @@
-# Estudo-de-Caso-bellabeat
+# Estudo de Caso Bellabeat — Google Data Analytics Capstone
 
-## Google Data Analytics Capstone
+Estudo de caso final do certificado **Google Data Analytics**. A análise usa dados públicos de atividade física de dispositivos Fitbit para identificar padrões de uso de wearables e propor recomendações de marketing e produto para a **Bellabeat**, empresa de tecnologia voltada ao bem-estar feminino.
 
-Este repositório reúne todo o estudo de caso desenvolvido para o projeto final do curso Google Data Analytics Certificate, incluindo documentação, limpeza de dados, análises exploratórias e visualizações criadas a partir do dataset público de dados de atividades do Fitbit.
+**Estado:** concluído (novembro de 2025).
 
-O objetivo da análise é identificar padrões de uso de dispositivos inteligentes voltados ao bem-estar físico e gerar recomendações estratégicas para a empresa Bellabeat, que atua no mercado de wearables para o público feminino.
+## Pergunta de negócio
 
-### 📌 1. Objetivos do Projeto
+Como os consumidores utilizam dispositivos inteligentes de monitoramento da saúde física, e como esses hábitos podem orientar decisões estratégicas da Bellabeat?
 
-Entender como usuários utilizam dispositivos de monitoramento de bem-estar.
+## Principais resultados
 
-Identificar tendências de comportamento relacionadas a sono, atividade física e gasto calórico.
+Valores conforme o relatório do estudo ([docs/Estudo de Caso - Bellabeat.md](docs/Estudo%20de%20Caso%20-%20Bellabeat.md)):
 
-Traduzir essas descobertas em insights acionáveis para marketing e desenvolvimento de produto.
+- Média de **7.247 passos por dia**, com **mais de 16 horas diárias** de comportamento sedentário.
+- Sono médio de **7,7 horas** por noite.
+- Intensidades diárias médias: ~20 min intensa, ~14 min moderada e ~185 min leve.
+- Passos em dias úteis (7.271) e em fins de semana (7.188) são semelhantes.
+- Baixa adesão ao registro de sono e de peso, o que limita análises mais profundas.
 
-### 📁 2. Estrutura do Repositório
-📁 dados/                Dados utilizados (limpos e brutos)
+**Recomendações:** notificações inteligentes de movimento, metas personalizadas de atividade e sono, conteúdos educativos, campanhas voltadas a mulheres com rotinas intensas e incentivo a registros consistentes de sono e peso.
 
-📁 visualizações/             PDFs, HTMLs e visualizações
+## Etapas do estudo
 
-📁 docs/                Documentação original do case
+O relatório segue as seis fases do ciclo de análise do curso:
 
-📁 sql/                 Scripts SQL utilizados no processo
+1. **Perguntar** — objetivo, pergunta de negócio e perguntas secundárias.
+2. **Preparar** — fonte, formato, credibilidade, privacidade e verificação de integridade dos dados.
+3. **Processar** — padronização de datas, conversão de tipos, remoção de duplicatas (525 linhas em `minuteSleep_merged`), checagem de campos vazios e de consistência entre distâncias.
+4. **Analisar** — descobertas gerais, padrões e insights.
+5. **Compartilhar** — resultados e visualizações.
+6. **Agir** — conclusão e recomendações.
 
-README.md               Visão geral do projeto
+## Dados
 
-### 3. Relatório Detalhado
-Para acessar o relatório completo com as análises clique [aqui](docs/Estudo%20de%20Caso%20-%20Bellabeat.md)
+- **Fonte:** [Fitbit Fitness Tracker Data (Kaggle)](https://www.kaggle.com/datasets/arashnic/fitbit), dados públicos e anonimizados.
+- **Limitações (apontadas no relatório):** amostra pequena (35 usuários), sem dados demográficos e sem como confirmar que a base representa o público feminino da Bellabeat.
+- **No repositório:** arquivos `.csv` compactados em `.zip`, em duas versões, **brutos** e **limpos**, para dois períodos do dataset (pastas `12-03-2016~11-04-2016` e `12-04-2016~12-05-2016`). Os arquivos incluem atividade diária, sono, calorias, intensidade, passos, batimentos cardíacos e peso (por exemplo, `dailyActivity_merged.csv`, `minuteSleep_merged.csv`, `heartrate_seconds_merged.csv`, `weightLogInfo_merged.csv`).
 
-### ⚙️ 4. Tecnologias Utilizadas
+## Ferramentas
 
-R e RMarkdown para ETL, EDA e visualizações
+- **Conforme o relatório:** Google Planilhas (verificações e limpeza), Python (padronização de datas) e MySQL (organização dos dados em tabelas separadas para atividade diária, sono, calorias, intensidade, passos, batimentos e peso).
+- **R:** parte das análises foi feita em R. Os scripts em R **não estão neste repositório**; estão disponíveis apenas os resultados (relatório e visualizações).
+- **Scripts SQL:** a pasta `sql/` está reservada; os scripts SQL não foram incluídos.
 
-MySQL para modelagem e ingestão dos dados
+## Visualizações
 
-Google Sheets como apoio na checagem de integridade
+PDFs na pasta [`visualizações/`](visualizações/):
 
-Python para ajustes pontuais nos arquivos
+- Impacto da Duração do Sono sobre o Desempenho Físico Diário
+- Relação entre Intensidade da Atividade Física, Gasto Calórico e Batimentos Cardíacos
+- Relação entre Peso e Componentes de Atividade Física
 
-Markdown para documentação final
+## Estrutura do repositório
 
-### 📊 5. Sumário das Principais Descobertas
+```text
+.
+├── dados/
+│   ├── brutos/        # dados originais compactados (.zip), por período
+│   └── limpos/        # dados após o tratamento (.zip), por período
+├── docs/              # relatório completo (.md, .docx e .pdf)
+├── sql/               # reservada (sem scripts)
+├── visualizações/     # gráficos em PDF
+└── README.md
+```
 
-Os usuários possuem padrão predominantemente sedentário, com longos períodos de inatividade.
+## Relatório completo
 
-Média de 7.247 passos/dia, abaixo do recomendado pela OMS.
+- [Relatório em Markdown](docs/Estudo%20de%20Caso%20-%20Bellabeat.md)
+- Também disponível em [.docx](docs/Estudo%20de%20Caso%20-%20Bellabeat.docx) e [.pdf](docs/Estudo%20de%20Caso%20-%20Bellabeat.pdf).
 
-Sono médio de 7,7h/noite, mas irregular entre usuários.
+## Autor
 
-Usuários que dormem mais apresentam melhor equilíbrio energético.
-
-Não há diferenças expressivas entre dias úteis e fins de semana.
-
-Baixa adesão a registros completos de sono e peso, o que limita análises mais profundas.
-
-### 🔎 6. Análises em R
-
-As análises completas estão disponíveis em:
-
-📄 /r-analysis/analise_sono.Rmd
-
-📄 /r-analysis/analise_atividade.Rmd
-
-📄 /r-analysis/analise_peso.Rmd
-
-Versões renderizadas:
-
-🖥️ /reports/sono.html
-
-🖥️ /reports/atividade.html
-
-🖥️ /reports/peso.html
-
-### 📈 7. Visualizações
-Gráficos utilizados no relatório estão na pasta:
-
-📁 /visualizacoes/
-
-### 🧩 8. Principais Recomendações
-
-Criar notificações inteligentes que incentivem pausas ao longo do dia.
-
-Implementar conteúdos educativos sobre qualidade do sono.
-
-Desenvolver metas personalizadas baseadas no comportamento individual.
-
-Criar campanhas direcionadas ao público feminino com foco em rotina saudável e realista.
-
-### 🔗 9. Fonte dos Dados
-
-Dataset público disponível em:
-Kaggle – [Fitbit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)
-
-### 👤 10. Autor
-
-Willian Gomes
-
-Analista de Dados | SQL • R • Python • Visualização
-
-LinkedIn: [Acesse aqui](https://www.linkedin.com/in/willian-gomes-242240174/)
+**Willian Gomes** — [LinkedIn](https://www.linkedin.com/in/willian-gomes-242240174/)
